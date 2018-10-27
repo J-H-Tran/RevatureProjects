@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+     <head>
+          <meta charset="iso-8859-1">
+          <link rel="stylesheet"
+	          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+	          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	          crossorigin="anonymous">
+          <title>Welcome to Dynamie Table</title>
+     </head>
+     <body class="container">
+          <header>
+               <div>
+                    <h1>Dynamic Table</h1>
+                    <div>
+                         <div class="well" id="myForm">
+                              <form>
+                                   <div class="form-group">
+                                        <input id="heroid" type="text" placeholder="enter your id">
+                                        <input id="heroname" type="text" placeholder="enter your name">
+                                        <input id="heroage" type="text" placeholder="enter your age">
+                                        <input id="submitBtn" type="button" value="Submit" class="btn btn-primary">
+                                        <input id="clearBtn" type="button" value="Clear" class="btn btn-danger">
+                                   </div>
+                              </form>
+                         </div>
+                    </div>
+               </div>
+          </header>
+          <section>
+               <div>
+                    <table class="table table-bordered table-hover table-striped">
+                         <thead>
+
+                         </thead>
+                         <tbody id="myTable">
+                              <th>ID</th>
+                              <th>NAME</th>
+                              <th>AGE</th>
+                         </tbody>
+                    </table>
+               </div>
+          </section>
+          <script type="text/javascript" src="../js/dynamicTable.js">
+
+          </script>
+     </body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+     <head>
+          <meta charset="iso-8859-1">
+          <title>Welcome to javascript</title>
+     </head>
+     <body>
+          <form action="#">
+               <input type="text" id="textValue">
+               <button type="Submit" onclick="clickButton()">Submit</button>
+          </form>
+          <div>
+               <div>
+
+               </div>
+
+               <p id="before">Before clicking the button</p>
+
+          </div>
+          <script type="text/javascript" src="../js/day1.js">
+               function clickButton() {
+                    let textValue = document.getElementById("textValue").value;
+                    console.log(textValue);
+                    document.getElementById("before").innerHTML = textValue;
+               }
+          </script>
+     </body>
+</html>

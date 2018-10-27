@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+     <meta charset="iso-8859-1">
+     <title>Insert Title Here</title>
+     <style media="screen">
+          p{
+               font-size:  10px;
+               background-color: fuchsia;
+               color: dodgerblue;
+          }
+          body{
+               background-color: yellow;
+          }
+     </style>
+     <link rel="stylesheet" type="text/css" href="../css/master.css">
+</head>
+
+
+
+<h1>Heading</h1>
+<h2>Heading</h2>
+<h3>Heading</h3>
+<h4>Heading</h4>
+<h5>Heading</h5>
+<h6>Heading</h6>
+
+<body>
+     <div>
+          <a href="http://www.google.com" target=*_blank*>Google</a>
+          <a href="https://www.lipsum.com/" target=*_blank*>Lorem Ipsum</a>
+     </div>
+     <p style="font-size: 10px">
+          lorem example
+     </p>
+</body>
+
+     <h3>Review of HTML</h3>
+          <p>Some important elements of html are html, body, head, title,
+          h1 to h6, div, hr, br, table, tr, td, th, tbody, thead, script,
+          link, a, strong, span, p, form, input, button, iframe, img
+          </p>
+     <h3>HTML5 elemtns</h3>
+     <p>header, fotter, section, canvas, audio, video, url, nav,
+     progress, summary, time, article</p>
+<section>
+     <div>
+          <form>
+               <input id="username"type="text" name="placeholder" value="Enter valid username">
+               <input id="password"type="text" name="placeholder" value="Enter valid password">
+               <button type="button" name="login"></button>
+               <button type="button" name="cancel"></button>
+          </form>
+          <div>
+               <div>
+                    <div>
+                         <div>
+                              <div>
+                                   <ol>
+                                        <li>Tags that won't need closing tab - br, img, input</li>
+                                        <li>DOM - Document Object Model. Hierarchy of html elements
+                                        and its attributes in a tree like structure</li>
+                                        <li>div definition - divider (divide the page into sections)</li>
+                                        <li>How to write a form in html? using form element. form should
+                                        also contain multiple input fields and buttons</li>
+                                        <li>types of list - ordered and unordered</li>
+                                        <li>what is span - to sytle or color a portion of the text</li>
+                                   </ol>
+
+                              </div>
+
+                         </div>
+
+                    </div>
+
+               </div>
+
+          </div>
+
+     </div>
+</section>
+
+
+
+     <head>
+          <meta charset="utf-8">
+          <title></title>
+     </head>
+     <body>
+
+     </body>
+</html>

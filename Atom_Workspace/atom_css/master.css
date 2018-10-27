@@ -1,0 +1,15 @@
+@charset "iso-8859-1";
+
+ol{
+     color: red;
+     font-size: 30px;
+     font-style: italic;
+
+}
+table{
+     border: thin;
+     border-top-width: 20px;
+     border-bottom-width: 20px;
+     border-right-width:  20px;
+
+}

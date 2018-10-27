@@ -1,0 +1,28 @@
+@charset "ISO-8859-1";
+
+ol{
+	color : red;
+	font-size: 30px;
+	font-style: italic;
+	font-family: verdana;
+}
+
+table {
+	border: thin;
+	border-top-width: 20px;
+	border-bottom-width: 20px;
+	border-right-width: 10px;
+	border-left-width: 10px;
+	border-collapse: separate;
+	border-color: blue;
+	border-style: dotted;
+}
+ul {
+	color : green;
+}
+p {
+	color : blue;
+}
+h1, h2, h3, h4, h5, h6 {
+	background-color: graytext;
+}
